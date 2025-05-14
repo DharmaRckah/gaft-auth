@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "its auth provider with google facebook telegram and appple ",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "npm start"
   },
@@ -26,5 +27,22 @@
   "bugs": {
     "url": "https://github.com/DharmaRckah/gaft-auth/issues"
   },
-  "homepage": "https://github.com/DharmaRckah/gaft-auth#readme"
+  "homepage": "https://github.com/DharmaRckah/gaft-auth#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.3",
+    "passport": "^0.7.0",
+    "passport-apple": "^2.0.2",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
