@@ -1,0 +1,30 @@
+{
+  "name": "dharma-google-facebook-telegram-apple-auth",
+  "version": "1.0.0",
+  "description": "its auth provider with google facebook telegram and appple ",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DharmaRckah/gaft-auth.git"
+  },
+  "keywords": [
+    "auth",
+    "googleauth",
+    "google-auth",
+    "facebook-auth",
+    "facebookauth",
+    "apple-auth",
+    "appleauth",
+    "telegram-auth",
+    "telegramauth"
+  ],
+  "author": "dharmendra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DharmaRckah/gaft-auth/issues"
+  },
+  "homepage": "https://github.com/DharmaRckah/gaft-auth#readme"
+}
